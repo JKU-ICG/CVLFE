@@ -6,7 +6,7 @@
 A decent PC with enough RAM (16 GB or more, depending on the dataset).
 
 #### Software Requirements:
-- Matlab (>R2015b) with Image Processing Toolbox
+- Matlab (>R2015b) with Image Processing Toolbox.
 The software was tested on Windows 10 running Matlab R2015b. 
 
 #### External Libraries/Tools (included in 'thirdparty' folder):
