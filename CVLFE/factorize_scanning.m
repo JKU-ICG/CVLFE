@@ -120,7 +120,7 @@ save(workspace_filename, '-v7.3');
 % mapping between factorization and GT
 [dist,ratio,nn] = dictdist(Dexpect( nonZeroRays, : ),Dnmf( :, : ),0.0001);
 if~( length( unique(nn) ) == numberNeurons )
-    warning( 'not all neurons have been factorized (only %d of %d)!', length(unique(nn)), numberNeurons );
+    warning( 'not all neurons have been factorized (only %d of %d)!\n', length(unique(nn)), numberNeurons );
 end
 
 % OUTPUT plots:

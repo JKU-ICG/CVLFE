@@ -45,7 +45,7 @@ end
 %% SETTINGS for SCANNING %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-illum4D_redsize = [11    15     7     7] %size( ilfs{1} );
+illum4D_redsize = [11    15     7     7]; %size( ilfs{1} );
 
 max_similarity_thresh = 1.0; % maximum allows similarity threshold!
 % background level for recorded images
@@ -220,7 +220,7 @@ while true == continue_splits && i_level <= max_level
                 if ndifference < max_similarity_thresh
                     measured_similarity_thresh = max( measured_similarity_thresh, ndifference ); % always take worst measurement!
                 else
-                    fprintf( 'measured_similarity_thresh above 1!' );
+                    fprintf( 'measured_similarity_thresh above 1!\n' );
                     % IDEALLY THIS SHOULD NOT HAPPEN, but can happen due to thresolding!
                 end
 
