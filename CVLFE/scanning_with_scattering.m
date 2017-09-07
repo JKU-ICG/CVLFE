@@ -220,8 +220,8 @@ while true == continue_splits && i_level <= max_level
                 if ndifference < max_similarity_thresh
                     measured_similarity_thresh = max( measured_similarity_thresh, ndifference ); % always take worst measurement!
                 else
-                    warning( 'measured_similarity_thresh above 1!' );
-                    % THIS SHOULD NOT HAPPEN!
+                    fprintf( 'measured_similarity_thresh above 1!' );
+                    % IDEALLY THIS SHOULD NOT HAPPEN, but can happen due to thresolding!
                 end
 
             end

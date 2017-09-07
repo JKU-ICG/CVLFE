@@ -1,6 +1,5 @@
 function [colorLF, cmap, idLF] = colorized_lf( Dnmf, nonzeroRays, lf_size, normalize, threshold, input_colormap )
-%PLOT_RESULTS Summary of this function goes here
-%   Detailed explanation goes here
+
 eps = 0.01;
 imshowScale = 1;
 idLF = zeros( lf_size, 'single' );
@@ -62,19 +61,7 @@ for m = 1:numberNeurons
         colorLF = colorLF + c_lf;
     end
     
-    %         estMLA = mlaFromLF( permute( lfKsvd, [1 2 5 3 4] ));
-    %         imshow( imresize(estMLA,imshowScale), [], 'Border','tight' );
-    %         [x,y] = find( estMLA>eps ) ;
-    %         estCenterOfMassXY = [mean(x) mean(y)]*imshowScale ;
-    %         hold on;
-    %         plot( estCenterOfMassXY(2), estCenterOfMassXY(1), 'r*' );
-    %         title( [ 'NMF - neuron ' num2str(m) ] );
-    %
-    %         if ~exist('estCenterOfMassXY_array', 'var')
-    %             estCenterOfMassXY_array = estCenterOfMassXY;
-    %         else
-    %             estCenterOfMassXY_array = [estCenterOfMassXY_array; estCenterOfMassXY];
-    %         end
+
 end
 
 if ~threshold && normalize

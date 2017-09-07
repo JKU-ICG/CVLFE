@@ -1,6 +1,5 @@
 function [ illuminations, lfs ] = split_illumination( illumination_parent, full_lf_size, varargin )
-%CREATE_HIERACHICAL_ILLUMINATION Summary of this function goes here
-%   Detailed explanation goes here
+%CREATE_HIERACHICAL_ILLUMINATION
 
 
 

@@ -1,6 +1,5 @@
 function [SGT_Fig, FigH] = plot_results( numberOfIllumination, percentageOfLight, numberNeurons, Dnmf, nonzeroRays, lf_size, GT, folder, cmap )
-    %PLOT_RESULTS Summary of this function goes here
-    %   Detailed explanation goes here
+
     eps = 5;
     imshowScale = 1;
     name = [ 'Number of neurons :  ' num2str(numberNeurons),' / Number of illuminations :  ' num2str(numberOfIllumination) ];

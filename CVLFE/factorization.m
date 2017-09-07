@@ -1,6 +1,4 @@
 function [Dnmf,alphaNmf] = factorization(X_, numberNeurons, Dexpect, nonzeroRays, lf_size, method )
-    %FACTORIZATION_TESTS Summary of this function goes here
-    %   Detailed explanation goes here
 
     if nargin < 6
        method = 'default'; 

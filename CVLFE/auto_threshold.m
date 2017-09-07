@@ -1,6 +1,4 @@
 function [ img, tImg1 ] = auto_threshold( img1, nonZeroRays, bg_level, thresFact )
-%AUTO_THRESHOLD Summary of this function goes here
-%   Detailed explanation goes here
     meanImg1 = mean( img1( (img1(:) > bg_level) & nonZeroRays(:) ) );
     
     if nargin < 4

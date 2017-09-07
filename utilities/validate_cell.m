@@ -1,6 +1,4 @@
 function [ success_accessing_or_not_empty ] = validate_cell( variable, i_s,i_t,i_u,i_v  )
-%VALIDATE_CELL Summary of this function goes here
-%   Detailed explanation goes here
 
 try
     if nargin == 5

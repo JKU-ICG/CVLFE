@@ -1,6 +1,4 @@
 function [ ] = writeReprojImgs( reproj4D, illum4D, folder, name )
-%WRITEREPROJIMGS Summary of this function goes here
-%   Detailed explanation goes here
 
     dst_folder = fullfile( folder, 'recording' );
     if ~exist( dst_folder, 'dir' ), mkdir(dst_folder); end;
