@@ -45,7 +45,7 @@ end
 %% SETTINGS for SCANNING %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-illum4D_redsize = size( ilfs{1} );
+illum4D_redsize = [11    15     7     7] %size( ilfs{1} );
 
 max_similarity_thresh = 1.0; % maximum allows similarity threshold!
 % background level for recorded images
@@ -156,7 +156,7 @@ i_stored_NMF = 0;
 
 
 %%
-lf_size = size( lfs{1} );
+lf_size = [42    56    35    35]; %
 full_lf_size = lf_size;
 illuminations = cell(1);
 illuminations{1,1} = {1:illum4D_redsize(1),1:illum4D_redsize(2),1:illum4D_redsize(3),1:illum4D_redsize(4)}; % full illumination is zero level
