@@ -57,7 +57,7 @@ num_rays_for_conflict = 50; % so many rays must overlap to count as conflict!!!
 num_rays_for_empty = num_rays_for_conflict; % if less rays are in image after auto_threshold, discard!
 a_threshold = 0.0001; % thresholding on A to make illum more sparse! (determined experimentally)
 
-DEBUG = true;
+DEBUG = false;
 
 DELETE_EMPTY_RAYS = true;
 DELETE_EMPTY_ILLUM_RAYS = true;
