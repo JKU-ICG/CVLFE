@@ -7,7 +7,7 @@
 - [scattering level of 0.2 (strong scattering)](https://drive.google.com/open?id=0BybPuFSOXAjHdnlseGxFSER2Tjg)
 - [scattering level of 0.3 (very strong scattering)](https://drive.google.com/open?id=0BybPuFSOXAjHRDd1UEtWV214bTA)
 
-[whole data package](https://drive.google.com/drive/folders/0BybPuFSOXAjHc1hNOE9vMk5iakk?usp=sharing)
+[**Whole data package on Google Drive**](https://drive.google.com/drive/folders/0BybPuFSOXAjHc1hNOE9vMk5iakk?usp=sharing)
 
 ## DATA
 
